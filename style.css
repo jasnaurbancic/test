@@ -1,0 +1,14 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: #F38630;
+    border-radius: 5px;
+} 
+
+nav {
+    width: 200px;
+    cursor: pointer;
+}
+article {
+    margin: 0px 0px 0px 210px
+}
