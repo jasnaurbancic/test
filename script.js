@@ -1,12 +1,10 @@
 $(document).ready(function(){
   $('nav ul ul').hide();
-  $('nav ul').click(function(){
-    $('*').removeClass("show");
+  $('nav ul li').click(function(event){
     $('nav ul ul').hide();
-    $(this).children().addClass("show");
-    $('.show').show();    
+    $(this).next('ul').toggle();
   });
-  $(document).click(function(){
-    $('div').fadeOut('slow');
-  });
+  //$(document).click(function(){
+    //$('div').fadeOut('slow');
+  //});
 });
